@@ -8,7 +8,7 @@ def my_each(array)
     end
     array
   else
-   "Hello, you."
+   puts "Hello, you."
   end
 end
 
