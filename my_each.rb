@@ -6,7 +6,7 @@ def my_each(array)
     yield(array[i])
       i +=1
     end
-    puts array
+    array
   else
    "Hello, you."
   end
