@@ -13,5 +13,5 @@ def my_each(array)
 end
 
 my_each(["james", "jim", "john"]) do |name|
-  puts "hello #{name}"
+  "hello #{name}"
 end
