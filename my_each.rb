@@ -7,10 +7,11 @@ def my_each(array)
       i +=1
     end
     array
-  else 
+  else
     puts "Hello, you."
+  end
 end
-end
+
 my_each(["james", "jim", "john"]) do |name|
   puts "hello #{name}"
 end
