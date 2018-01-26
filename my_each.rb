@@ -8,6 +8,6 @@ def my_each(array)
 end
 end
 
-my_each([james, jim, john]) do |name|
+my_each(["james", "jim", "john"]) do |name|
   puts "hello #{name}"
 end
