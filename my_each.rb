@@ -6,6 +6,7 @@ def my_each(array)
     yield(array[i])
       i +=1
 end
+  array
 end
 
 my_each(["james", "jim", "john"]) do |name|
